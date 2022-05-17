@@ -1,0 +1,23 @@
+body{
+    background-color:whitesmoke;
+}
+button{
+    background-color: #292b2c;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: #292b2c;
+    border-width: 1px;
+    border-color: #292b2c;
+}
+#foot{
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    background-color: #292b2c;
+    color: whitesmoke;
+    height: 20px;
+    text-align: center;
+}
+

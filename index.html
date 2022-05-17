@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <title>Sound Controlled Animals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <center>
+    <div class="col-xs-12 text center" id="tit">
+      <h2>Sound controlled Animals</h2>
+      <p> Note - Play different sound like barking, meowing, roaring, chirping.</p>
+    </div>
+    <hr>
+    <div id="body">
+
+      <button class="btn btn-light" onclick="startClassifier()"> Start </button>
+      <br>
+      <span id="results_count">
+        <br>
+        <h5 id="dog">Dog - </h5>
+        <h5 id="dans"></h5>
+        <h5 id="cat">Cat - </h5>
+        <h5 id="cans"></h5>
+        <h5 id="lion">Lion - </h5>
+        <h5 id="lans"></h5>
+        <h5 id="bird">Bird - </h5>
+        <h5 id="bans"></h5>
+      </span>
+      <h3 id="results_label">Detected sound is of - </h3>
+      <br>
+      <img src="hear.jpg" width="300" height="300">
+
+    </div>
+
+    <div class="text-center" id="foot">
+      Developed by P
+    </div>
+    <br><br>
+
+  </center>
+
+</body>
+
+</html>
